@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top {
+    background-color: lightgray;
+    border-bottom: 2px solid lightseagreen;
+}
+
+.heading1 {
+    color: lightgray;
+}
+
+.nav-menu {
+    background-color: #2980b9;
+    list-style-type: none;
+}
+
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+.search-section {
+    background: linear-gradient(to right, orange, lightcoral);
+}
+
+.search-section input[type="text"] {
+    border: 1px solid orange;
+}
+
+.search-section input[type="submit"] {
+    color: orange;
+    background-color: orange;
+    border: 1px solid rgb(17, 16, 13);
+    color: white;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-header>td {
+    background-color: #64ff69a2;
+    text-align: center;
+    color: white;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #4CAF50;
+
+}
+
+.product-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product-img {
+    width: 80px;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid purple;
+}
+
+legend {
+    font-weight: bold;
+    background-color: plum;
+    color: white;
+}
+
+label {
+    width: 120px;
+}
+
+input [type="submit"] {
+    background-color: plum;
+}
+
+.inp-acc {
+    background-color: plum;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.text {
+    background-color: #f44336ad;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comparison-table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.comparison-table,
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #f44336;
+    color: white;
+}
+
+.order-summary,
+.payment-info {
+    border: 1px solid black;
+    width: 60%;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-summary th,
+.order-summary td {
+    border: 1px solid black;
+}
+
+.contact-section {
+    background-color: #233142;
+    color: white;
+    padding: 20px;
+    font-style: italic;
+}
+
+.contact-section a {
+    color: #add8e6;
+    text-decoration: underline;
+}
+
+.quick-links {
+    background-color: #233142;
+    color: white;
+}
+
+.quick-links h4 {
+    margin-top: 0;
+}
+
+.quick-links ul {
+    list-style-type: disc;
+}
+
+.quick-links a {
+    color: #add8e6;
+    text-decoration: underline;
+}
